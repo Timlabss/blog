@@ -16,7 +16,7 @@ img{max-width:100%;height:auto;display:block}
 
 .site-header{
   position:relative;min-height:320px;display:flex;align-items:center;justify-content:center;
-  background:#123c34 url("header.jpg") center 42%/cover no-repeat;color:#fff;text-align:center;
+  background:#123c34 url("header.jpg") center/cover no-repeat;color:#fff;text-align:center;
 }
 .site-header::after{content:"";position:absolute;inset:0;background:rgba(12,40,36,.38)}
 .brand{position:relative;z-index:1;padding:48px 20px 36px}
