@@ -14,17 +14,10 @@ a{color:var(--acc);text-decoration:none}
 a:hover{color:var(--acc2);text-decoration:underline}
 img{max-width:100%;height:auto;display:block}
 
-.hero{
-  background:#bfe8e6;
+.site-header{
+  min-height:340px;
+  background:#bfe8e6 url("header.jpg") center 42%/cover no-repeat;
 }
-.hero img{width:100%;height:220px;object-fit:cover;object-position:center 70%;display:block}
-.mast{
-  background:#fff;text-align:center;padding:28px 20px 22px;border-bottom:1px solid var(--line);
-}
-.mast .kicker{letter-spacing:.28em;font-size:12px;text-transform:uppercase;color:var(--acc);margin:0 0 8px}
-.mast .sitename{margin:0;font-family:Georgia,"Times New Roman",serif;font-size:38px;font-weight:700;letter-spacing:.03em;color:var(--ink);text-decoration:none}
-.mast .sitename:hover{color:var(--acc);text-decoration:none}
-.mast p{margin:8px 0 0;color:var(--mut);font-size:15.5px}
 
 .nav{
   background:#111;border-top:3px solid var(--acc);
@@ -36,8 +29,7 @@ img{max-width:100%;height:auto;display:block}
 .wrap{max-width:1040px;margin:36px auto 20px;padding:0 22px;display:grid;grid-template-columns:1fr 300px;gap:48px;align-items:start}
 @media(max-width:860px){
   .wrap{grid-template-columns:1fr;gap:28px}
-  .brand .sitename,.brand h1{font-size:32px}
-  .site-header{min-height:240px}
+  .site-header{min-height:220px}
 }
 
 .post-card{padding:0 0 28px;margin:0 0 28px;border-bottom:1px solid var(--line)}
