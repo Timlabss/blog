@@ -15,9 +15,15 @@ a:hover{color:var(--acc2);text-decoration:underline}
 img{max-width:100%;height:auto;display:block}
 
 .site-header{
-  min-height:340px;
-  background:#bfe8e6 url("header.jpg") center 42%/cover no-repeat;
+  position:relative;min-height:320px;display:flex;align-items:center;justify-content:center;
+  background:#123c34 url("header.jpg") center 42%/cover no-repeat;color:#fff;text-align:center;
 }
+.site-header::after{content:"";position:absolute;inset:0;background:rgba(12,40,36,.38)}
+.brand{position:relative;z-index:1;padding:48px 20px 36px}
+.brand .kicker{letter-spacing:.28em;font-size:12px;text-transform:uppercase;opacity:.9;margin:0 0 10px}
+.brand .sitename{margin:0;font-family:Georgia,"Times New Roman",serif;font-size:46px;font-weight:700;letter-spacing:.04em;color:#fff;text-decoration:none}
+.brand .sitename:hover{color:#fff;text-decoration:none}
+.brand p{margin:10px auto 0;font-size:16px;opacity:.92;max-width:520px}
 
 .nav{
   background:#111;border-top:3px solid var(--acc);
