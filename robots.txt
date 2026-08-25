@@ -1,3 +1,5 @@
 User-agent: *
 Allow: /
-Sitemap: https://Timlabss.github.io/blog/sitemap.xml
+
+Sitemap: https://timlabss.github.io/blog/sitemap.xml
+Host: timlabss.github.io
